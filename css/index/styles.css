@@ -1,0 +1,23 @@
+@import url('../page_styles.css');
+@import url('../background.css');
+
+@import url('../nav/nav.css');
+
+@import url('./header__container.css');
+@import url('./info_section.css');
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+
+    display: grid;
+    grid-template-rows: 100px 1fr;
+
+    background-image: linear-gradient( 180deg, #000000c9 0%, #000000c9 100%), url(../../images/index/init_background.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: var(--primary-font-color);
+}
